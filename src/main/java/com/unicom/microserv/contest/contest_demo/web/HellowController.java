@@ -8,10 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/contest/demo/")
 public class HellowController {
-    @RequestMapping(
-            value = "hello",
-            method = RequestMethod.GET
-    )
+    @RequestMapping("hello")
     public String hello(
             @RequestParam String name
     ) {
@@ -23,6 +20,6 @@ public class HellowController {
             method = RequestMethod.GET
     )
     public String ping() {
-        return "pong" + "chenpw8";
+        return "pong";
     }
 }
