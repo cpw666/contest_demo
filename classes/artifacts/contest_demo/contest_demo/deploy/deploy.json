@@ -1,0 +1,12 @@
+{
+  "description": {
+    "service_name": "contest demo服务",
+    "maintainer_group": "微服务平台",
+    "maintainer_name": "chenpw8",
+    "maintainer_telephone": "1860596xxxx"
+  },
+  "env": {
+  },
+  "labels": {
+  }
+}
